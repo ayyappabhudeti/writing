@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayyappa Bhudeti — Freelance Copywriter & Content Writer</title>
+    <meta name="description" content="Freelance copywriting and content writing portfolio of Ayyappa Bhudeti. Clear, strategic writing that turns complex ideas into compelling messages.">
+
+    <!-- Google Fonts: Playfair Display (Editorial Serif) & Inter (Clean Sans-Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Editorial Theme Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        alabaster: '#FAF9F6',
+                        charcoal: '#1C1917',
+                        stoneBorder: '#E7E5E4',
+                        terracotta: '#9A3412',
+                        terracottaLight: '#FFF7ED',
+                        slateDeep: '#1E293B',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        sans: ['"Inter"', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-alabaster text-charcoal font-sans antialiased selection:bg-terracotta/15 selection:text-terracotta overflow-x-hidden">
+
+    <!-- ========================================================= -->
+    <!-- STICKY MINIMALIST NAVIGATION BAR                          -->
+    <!-- ========================================================= -->
+    <header id="navbar" class="sticky top-0 z-40 w-full bg-alabaster/90 backdrop-blur-md border-b border-stoneBorder transition-shadow duration-300">
+        <div class="max-w-5xl mx-auto px-5 sm:px-8">
+            <div class="flex items-center justify-between h-16 sm:h-20">
+                <!-- Brand Wordmark -->
+                <a href="#top" class="group flex items-center gap-2.5 focus:outline-none">
+                    <span class="w-8 h-8 rounded-lg bg-charcoal text-alabaster font-serif text-sm font-semibold flex items-center justify-center tracking-wide group-hover:bg-terracotta transition-colors duration-200">
+                        AB
+                    </span>
+                    <span class="font-serif text-lg font-semibold tracking-tight text-charcoal">
+                        Ayyappa Bhudeti
+                    </span>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav aria-label="Primary Navigation" class="hidden md:flex items-center gap-7 text-sm font-medium text-stone-600">
+                    <a href="#about" class="hover:text-terracotta transition-colors py-2">About</a>
+                    <a href="#copywriting" class="hover:text-terracotta transition-colors py-2">Copywriting</a>
+                    <a href="#content" class="hover:text-terracotta transition-colors py-2">Content</a>
+                    <a href="#samples" class="hover:text-terracotta transition-colors py-2">Samples</a>
+                    <a href="#work-with-me" class="hover:text-terracotta transition-colors py-2">Work With Me</a>
+                    <a href="#contact" class="px-4 py-2 rounded-lg bg-charcoal text-alabaster hover:bg-terracotta transition-colors duration-200">
+                        Contact
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button
+                    id="mobile-menu-btn"
+                    type="button"
+                    aria-label="Toggle navigation menu"
+                    aria-expanded="false"
+                    class="md:hidden p-2.5 rounded-lg text-charcoal hover:bg-stone-200/70 focus:outline-none focus:ring-2 focus:ring-terracotta/40 transition-colors"
+                >
+                    <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16" />
+                    </svg>
+                    <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-stoneBorder bg-alabaster px-5 py-4 space-y-1 shadow-lg">
+            <a href="#about" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-stone-700 hover:bg-stone-200/60 hover:text-terracotta transition-colors">01 — About</a>
+            <a href="#copywriting" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-stone-700 hover:bg-stone-200/60 hover:text-terracotta transition-colors">02 — Copywriting</a>
+            <a href="#content" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-stone-700 hover:bg-stone-200/60 hover:text-terracotta transition-colors">03 — Content Writing</a>
+            <a href="#samples" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-stone-700 hover:bg-stone-200/60 hover:text-terracotta transition-colors">04 — Writing Samples</a>
+            <a href="#work-with-me" class="mobile-nav-link block px-3 py-3 rounded-lg text-base font-medium text-stone-700 hover:bg-stone-200/60 hover:text-terracotta transition-colors">Work With Me</a>
+            <a href="#contact" class="mobile-nav-link block mt-2 px-4 py-3 rounded-lg text-center text-base font-medium bg-charcoal text-alabaster hover:bg-terracotta transition-colors">Contact Me</a>
+        </div>
+    </header>
+
+    <main id="top">
+        <!-- ========================================================= -->
+        <!-- HERO SECTION                                              -->
+        <!-- ========================================================= -->
+        <section class="relative pt-16 pb-20 sm:pt-24 sm:pb-28 md:pt-32 md:pb-36 border-b border-stoneBorder">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <div class="max-w-3xl reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <!-- Eyebrow Availability Tag -->
+                    <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white border border-stoneBorder shadow-sm mb-8">
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-terracotta opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-terracotta"></span>
+                        </span>
+                        <span class="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.14em] text-stone-700">
+                            Freelance Copywriter &amp; Content Writer · Available for Remote Projects
+                        </span>
+                    </div>
+
+                    <!-- Main Editorial Headline -->
+                    <h1 class="font-serif text-5xl sm:text-6xl md:text-7xl font-medium tracking-tight text-charcoal leading-[1.08] mb-6">
+                        Ayyappa Bhudeti
+                    </h1>
+
+                    <!-- Subheadline -->
+                    <p class="text-lg sm:text-xl md:text-2xl text-stone-600 font-light leading-relaxed max-w-2xl mb-10">
+                        Clear, strategic writing that turns complex ideas into compelling messages and measurable results.
+                    </p>
+
+                    <!-- Primary & Secondary CTAs -->
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-4">
+                        <a href="#contact" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-charcoal text-alabaster text-sm sm:text-base font-medium hover:bg-terracotta shadow-sm hover:shadow transition-all duration-200">
+                            <span>Work With Me</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                        <a href="#samples" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-white text-charcoal border border-stone-300 text-sm sm:text-base font-medium hover:border-charcoal hover:bg-stone-50 transition-all duration-200">
+                            <span>View Writing Samples</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 01 — ABOUT ME & WRITING APPROACH                          -->
+        <!-- ========================================================= -->
+        <section id="about" class="py-20 sm:py-28 border-b border-stoneBorder scroll-mt-16">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <!-- Section Header -->
+                <div class="reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="font-serif text-sm italic text-terracotta font-semibold">01</span>
+                        <span class="h-px w-8 bg-stone-300"></span>
+                        <span class="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">About Me</span>
+                    </div>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-medium text-charcoal tracking-tight mb-8">
+                        Clarity, precision, and purpose in every word.
+                    </h2>
+                </div>
+
+                <!-- Polished Bio -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-16 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="lg:col-span-8">
+                        <p class="text-base sm:text-lg text-stone-700 leading-relaxed">
+                            I’m Ayyappa Bhudeti, a freelance copywriter and content writer focused on helping brands communicate with clarity, precision, and purpose. Whether crafting conversion-driven landing pages or research-backed SEO articles, I bridge the gap between what your business wants to say and what your audience needs to hear. With a strong analytical background and an eye for detail, I turn complex concepts into accessible, engaging copy that builds trust and drives action.
+                        </p>
+                    </div>
+                    <div class="lg:col-span-4 flex flex-col justify-center p-6 rounded-2xl bg-white border border-stoneBorder">
+                        <p class="text-xs font-semibold uppercase tracking-[0.14em] text-stone-400 mb-2">Core Philosophy</p>
+                        <p class="font-serif italic text-lg text-charcoal leading-snug">
+                            “Good writing doesn’t just sound smart—it makes your reader feel understood and ready to act.”
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Subsection: My Writing Approach (2x2 Numbered Card Grid) -->
+                <div class="reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <h3 class="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500 mb-6">
+                        My Writing Approach
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6">
+                        <!-- Approach Card 1 -->
+                        <div class="p-6 sm:p-7 rounded-2xl bg-white border border-stoneBorder hover:border-stone-300 hover:shadow-sm transition-all duration-200">
+                            <span class="inline-block font-serif text-2xl text-terracotta mb-3">01.</span>
+                            <h4 class="font-serif text-xl font-medium text-charcoal mb-2">Audience Understanding</h4>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                                Pinpointing who the content is for, what challenges they face, and what motivates them to act.
+                            </p>
+                        </div>
+
+                        <!-- Approach Card 2 -->
+                        <div class="p-6 sm:p-7 rounded-2xl bg-white border border-stoneBorder hover:border-stone-300 hover:shadow-sm transition-all duration-200">
+                            <span class="inline-block font-serif text-2xl text-terracotta mb-3">02.</span>
+                            <h4 class="font-serif text-xl font-medium text-charcoal mb-2">Clear Communication</h4>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                                Distilling complex ideas and technical details into crisp, effortless reading.
+                            </p>
+                        </div>
+
+                        <!-- Approach Card 3 -->
+                        <div class="p-6 sm:p-7 rounded-2xl bg-white border border-stoneBorder hover:border-stone-300 hover:shadow-sm transition-all duration-200">
+                            <span class="inline-block font-serif text-2xl text-terracotta mb-3">03.</span>
+                            <h4 class="font-serif text-xl font-medium text-charcoal mb-2">Strategic Messaging</h4>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                                Aligning tone, structure, and narrative with your specific business objective.
+                            </p>
+                        </div>
+
+                        <!-- Approach Card 4 -->
+                        <div class="p-6 sm:p-7 rounded-2xl bg-white border border-stoneBorder hover:border-stone-300 hover:shadow-sm transition-all duration-200">
+                            <span class="inline-block font-serif text-2xl text-terracotta mb-3">04.</span>
+                            <h4 class="font-serif text-xl font-medium text-charcoal mb-2">Editing &amp; Refinement</h4>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                                Polishing every draft for clarity, flow, grammar, and brand consistency before delivery.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 02 — COPYWRITING SERVICES                                 -->
+        <!-- ========================================================= -->
+        <section id="copywriting" class="py-20 sm:py-28 border-b border-stoneBorder scroll-mt-16">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <div class="max-w-2xl mb-12 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="font-serif text-sm italic text-terracotta font-semibold">02</span>
+                        <span class="h-px w-8 bg-stone-300"></span>
+                        <span class="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">Copywriting</span>
+                    </div>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-medium text-charcoal tracking-tight mb-4">
+                        Copywriting Services
+                    </h2>
+                    <p class="text-base sm:text-lg text-stone-600 leading-relaxed">
+                        Persuasive, audience-first copy engineered to capture attention and convert.
+                    </p>
+                </div>
+
+                <!-- 4 Copywriting Service Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <!-- Service 1 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-terracotta/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-terracottaLight text-terracotta flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Advertisement Copy
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            High-impact headlines and body copy tailored for paid social, search, and digital campaigns.
+                        </p>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-terracotta/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-terracottaLight text-terracotta flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Email Marketing
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Welcome sequences, newsletters, and promotional campaigns designed to boost opens and click-throughs.
+                        </p>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-terracotta/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-terracottaLight text-terracotta flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Landing Pages
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Conversion-focused page architecture with clear value propositions and compelling calls to action.
+                        </p>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-terracotta/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-terracottaLight text-terracotta flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Product Descriptions
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Benefit-driven copy that highlights features, answers buyer questions, and accelerates decisions.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 03 — CONTENT WRITING SERVICES                             -->
+        <!-- ========================================================= -->
+        <section id="content" class="py-20 sm:py-28 border-b border-stoneBorder scroll-mt-16">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <div class="max-w-2xl mb-12 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="font-serif text-sm italic text-terracotta font-semibold">03</span>
+                        <span class="h-px w-8 bg-stone-300"></span>
+                        <span class="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">Content Writing</span>
+                    </div>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-medium text-charcoal tracking-tight mb-4">
+                        Content Writing Services
+                    </h2>
+                    <p class="text-base sm:text-lg text-stone-600 leading-relaxed">
+                        Informative, search-friendly content that builds authority and keeps readers coming back.
+                    </p>
+                </div>
+
+                <!-- 4 Content Writing Service Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <!-- Service 1 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-slateDeep/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-slate-100 text-slateDeep flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            SEO Articles
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Well-researched, keyword-optimized articles structured to rank organically and deliver genuine value.
+                        </p>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-slateDeep/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-slate-100 text-slateDeep flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Blog Posts
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Engaging, readable posts that educate your audience and strengthen your brand voice.
+                        </p>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-slateDeep/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-slate-100 text-slateDeep flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Website Content
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Cohesive core pages—Home, About, and Services—that clearly articulate who you are and what you offer.
+                        </p>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article class="group p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-slateDeep/40 hover:shadow-md transition-all duration-200">
+                        <div class="w-10 h-10 rounded-xl bg-slate-100 text-slateDeep flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-2.5 group-hover:text-terracotta transition-colors">
+                            Social Media Content
+                        </h3>
+                        <p class="text-sm sm:text-base text-stone-600 leading-relaxed">
+                            Scroll-stopping captions, threads, and posts crafted to spark engagement and build community.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 04 — WRITING SAMPLES (INTERACTIVE FILTER + MODAL)         -->
+        <!-- ========================================================= -->
+        <section id="samples" class="py-20 sm:py-28 border-b border-stoneBorder scroll-mt-16">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="max-w-xl">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="font-serif text-sm italic text-terracotta font-semibold">04</span>
+                            <span class="h-px w-8 bg-stone-300"></span>
+                            <span class="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">Writing Samples</span>
+                        </div>
+                        <h2 class="font-serif text-3xl sm:text-4xl font-medium text-charcoal tracking-tight mb-3">
+                            Selected Portfolio Pieces
+                        </h2>
+                        <p class="text-sm sm:text-base text-stone-600">
+                            Explore spec samples demonstrating voice, structure, and conversion strategy across formats.
+                        </p>
+                    </div>
+
+                    <!-- Filter Tabs -->
+                    <div role="tablist" aria-label="Filter writing samples" class="inline-flex flex-wrap items-center gap-2 bg-stone-200/60 p-1.5 rounded-xl border border-stoneBorder self-start md:self-auto">
+                        <button
+                            type="button"
+                            data-filter="all"
+                            class="filter-btn px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 bg-charcoal text-alabaster shadow-sm"
+                        >
+                            All
+                        </button>
+                        <button
+                            type="button"
+                            data-filter="copywriting"
+                            class="filter-btn px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-stone-600 hover:text-charcoal"
+                        >
+                            Copywriting
+                        </button>
+                        <button
+                            type="button"
+                            data-filter="content"
+                            class="filter-btn px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-stone-600 hover:text-charcoal"
+                        >
+                            Content Writing
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sample Cards Grid -->
+                <div id="samples-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <!-- Sample 1 -->
+                    <article data-category="copywriting" class="sample-card flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-stone-400 hover:shadow-md transition-all duration-200">
+                        <div>
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-terracottaLight text-terracotta">
+                                    Copywriting · Landing Page
+                                </span>
+                                <span class="text-xs font-medium text-stone-400 uppercase tracking-wider">Spec Sample</span>
+                            </div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-3 leading-snug">
+                                SaaS Productivity Tool Landing Page Hero &amp; Value Props
+                            </h3>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed mb-6">
+                                Above-the-fold messaging, conversion-oriented value propositions, and CTA microcopy crafted for an async workflow platform.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+                            <span class="text-xs text-stone-400 font-medium">2 min read</span>
+                            <button
+                                type="button"
+                                data-sample-id="sample-1"
+                                class="open-sample-btn inline-flex items-center gap-1.5 text-sm font-semibold text-charcoal hover:text-terracotta transition-colors py-1.5 px-2 -mr-2 rounded-lg"
+                            >
+                                <span>Read Sample</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Sample 2 -->
+                    <article data-category="copywriting" class="sample-card flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-stone-400 hover:shadow-md transition-all duration-200">
+                        <div>
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-terracottaLight text-terracotta">
+                                    Copywriting · Email Campaign
+                                </span>
+                                <span class="text-xs font-medium text-stone-400 uppercase tracking-wider">Spec Sample</span>
+                            </div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-3 leading-snug">
+                                Product Launch 3-Part Email Snippet
+                            </h3>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed mb-6">
+                                A concise launch sequence moving subscribers from problem awareness to product reveal and urgency-driven conversion.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+                            <span class="text-xs text-stone-400 font-medium">2 min read</span>
+                            <button
+                                type="button"
+                                data-sample-id="sample-2"
+                                class="open-sample-btn inline-flex items-center gap-1.5 text-sm font-semibold text-charcoal hover:text-terracotta transition-colors py-1.5 px-2 -mr-2 rounded-lg"
+                            >
+                                <span>Read Sample</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Sample 3 -->
+                    <article data-category="content" class="sample-card flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-stone-400 hover:shadow-md transition-all duration-200">
+                        <div>
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slateDeep">
+                                    Content Writing · SEO Article
+                                </span>
+                                <span class="text-xs font-medium text-stone-400 uppercase tracking-wider">Spec Sample</span>
+                            </div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-3 leading-snug">
+                                How Small Businesses Can Use Data-Driven Content to Double Organic Reach
+                            </h3>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed mb-6">
+                                An authoritative, search-structured article excerpt featuring an editorial hook, clear subheadings, and actionable takeaways.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+                            <span class="text-xs text-stone-400 font-medium">3 min read</span>
+                            <button
+                                type="button"
+                                data-sample-id="sample-3"
+                                class="open-sample-btn inline-flex items-center gap-1.5 text-sm font-semibold text-charcoal hover:text-terracotta transition-colors py-1.5 px-2 -mr-2 rounded-lg"
+                            >
+                                <span>Read Sample</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Sample 4 -->
+                    <article data-category="content" class="sample-card flex flex-col justify-between p-6 sm:p-8 rounded-2xl bg-white border border-stoneBorder hover:border-stone-400 hover:shadow-md transition-all duration-200">
+                        <div>
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slateDeep">
+                                    Content Writing · Blog Post
+                                </span>
+                                <span class="text-xs font-medium text-stone-400 uppercase tracking-wider">Spec Sample</span>
+                            </div>
+                            <h3 class="font-serif text-xl sm:text-2xl font-medium text-charcoal mb-3 leading-snug">
+                                Why Consistent Brand Voice Builds Long-Term Customer Trust
+                            </h3>
+                            <p class="text-sm sm:text-base text-stone-600 leading-relaxed mb-6">
+                                An engaging editorial blog post exploring how tone, clarity, and messaging alignment turn casual readers into loyal advocates.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+                            <span class="text-xs text-stone-400 font-medium">3 min read</span>
+                            <button
+                                type="button"
+                                data-sample-id="sample-4"
+                                class="open-sample-btn inline-flex items-center gap-1.5 text-sm font-semibold text-charcoal hover:text-terracotta transition-colors py-1.5 px-2 -mr-2 rounded-lg"
+                            >
+                                <span>Read Sample</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- WORK WITH ME (EDITORIAL DARK SLATE BANNER)                -->
+        <!-- ========================================================= -->
+        <section id="work-with-me" class="py-20 sm:py-24 scroll-mt-16">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <div class="rounded-3xl bg-slateDeep text-alabaster p-8 sm:p-12 md:p-16 shadow-lg reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="max-w-3xl">
+                        <span class="inline-block text-xs font-semibold uppercase tracking-[0.18em] text-orange-300/90 mb-4">
+                            Collaborate
+                        </span>
+                        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-medium tracking-tight mb-6">
+                            Work With Me
+                        </h2>
+                        <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-10">
+                            Looking for a writer who can help your business communicate more effectively? I partner with startups, agencies, and growing brands on freelance projects built on clear communication, thoughtful research, and reliable delivery. Let’s create something meaningful.
+                        </p>
+
+                        <!-- Available Freelance Services Pill List -->
+                        <p class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400 mb-4">
+                            Available for Projects Involving
+                        </p>
+                        <div class="flex flex-wrap gap-2.5 sm:gap-3 mb-10">
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">Website &amp; Landing Page Copy</span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">Advertising &amp; Email Campaigns</span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">SEO Blog Articles</span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">Long-Form Content</span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">Product Descriptions</span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">Social Media Content</span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 border border-white/15 text-sm text-slate-100">Video Scripts</span>
+                        </div>
+
+                        <a href="#contact" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-alabaster text-charcoal text-sm sm:text-base font-semibold hover:bg-orange-100 transition-colors duration-200">
+                            <span>Start a Conversation</span>
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- CONTACT SECTION                                           -->
+        <!-- ========================================================= -->
+        <section id="contact" class="pt-8 pb-20 sm:pb-28 scroll-mt-16">
+            <div class="max-w-5xl mx-auto px-5 sm:px-8">
+                <div class="reveal opacity-0 translate-y-6 transition-all duration-700 ease-out">
+                    <div class="max-w-2xl mb-10">
+                        <span class="text-xs font-semibold uppercase tracking-[0.16em] text-terracotta block mb-3">Get in Touch</span>
+                        <h2 class="font-serif text-3xl sm:text-4xl font-medium text-charcoal tracking-tight">
+                            Contact Details
+                        </h2>
+                    </div>
+
+                    <!-- Structured Contact Card -->
+                    <div class="rounded-3xl bg-white border border-stoneBorder p-6 sm:p-10 shadow-sm">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+                            <!-- Left Column: Direct Details -->
+                            <div class="space-y-6">
+                                <div>
+                                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-stone-400 mb-1">Name</p>
+                                    <p class="font-serif text-xl font-medium text-charcoal">Ayyappa Bhudeti</p>
+                                </div>
+
+                                <div>
+                                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-stone-400 mb-1.5">Email</p>
+                                    <div class="flex flex-wrap items-center gap-3">
+                                        <a href="mailto:ayyappa8812@gmail.com" class="text-base sm:text-lg font-medium text-charcoal underline decoration-stone-300 underline-offset-4 hover:text-terracotta hover:decoration-terracotta transition-colors break-all">
+                                            ayyappa8812@gmail.com
+                                        </a>
+                                        <button
+                                            id="copy-email-btn"
+                                            type="button"
+                                            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-xs font-semibold text-charcoal transition-colors focus:outline-none focus:ring-2 focus:ring-terracotta/40"
+                                        >
+                                            <svg id="copy-icon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                            </svg>
+                                            <svg id="check-icon" class="w-3.5 h-3.5 hidden text-emerald-700" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                            </svg>
+                                            <span id="copy-btn-text">Copy Email</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Column: Location, Availability & Direct Action -->
+                            <div class="flex flex-col justify-between space-y-6 md:border-l md:border-stoneBorder md:pl-10">
+                                <div class="space-y-6">
+                                    <div>
+                                        <p class="text-xs font-semibold uppercase tracking-[0.14em] text-stone-400 mb-1">Location</p>
+                                        <p class="text-base sm:text-lg font-medium text-charcoal">Andhra Pradesh, India</p>
+                                    </div>
+
+                                    <div>
+                                        <p class="text-xs font-semibold uppercase tracking-[0.14em] text-stone-400 mb-1">Availability</p>
+                                        <div class="inline-flex items-center gap-2 text-base font-medium text-charcoal">
+                                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
+                                            <span>Freelance / Remote</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pt-2">
+                                    <a
+                                        href="mailto:ayyappa8812@gmail.com?subject=Freelance%20Writing%20Inquiry"
+                                        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-terracotta text-alabaster text-sm sm:text-base font-medium hover:bg-charcoal transition-colors duration-200"
+                                    >
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        </svg>
+                                        <span>Send an Email</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================================================= -->
+    <!-- FOOTER                                                    -->
+    <!-- ========================================================= -->
+    <footer class="border-t border-stoneBorder bg-white/60 py-10">
+        <div class="max-w-5xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <p class="font-serif italic text-stone-600 text-base">
+                Thank you for reviewing my portfolio.
+            </p>
+            <p class="text-sm text-stone-500">
+                &copy; 2026 Ayyappa Bhudeti
+            </p>
+        </div>
+    </footer>
+
+    <!-- ========================================================= -->
+    <!-- READING MODAL FOR WRITING SAMPLES                         -->
+    <!-- ========================================================= -->
+    <div
+        id="sample-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-charcoal/60 backdrop-blur-sm transition-opacity duration-200"
+    >
+        <div class="relative w-full max-w-2xl max-h-[88vh] flex flex-col rounded-3xl bg-alabaster border border-stoneBorder shadow-2xl overflow-hidden">
+            <!-- Modal Header -->
+            <div class="flex items-start justify-between gap-4 px-6 sm:px-8 py-5 border-b border-stoneBorder bg-white">
+                <div>
+                    <span id="modal-category" class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-terracottaLight text-terracotta mb-2">
+                        Category
+                    </span>
+                    <h3 id="modal-title" class="font-serif text-xl sm:text-2xl font-medium text-charcoal leading-snug">
+                        Sample Title
+                    </h3>
+                </div>
+                <button
+                    id="close-modal-btn"
+                    type="button"
+                    aria-label="Close sample modal"
+                    class="p-2 rounded-xl text-stone-500 hover:text-charcoal hover:bg-stone-100 transition-colors shrink-0"
+                >
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Modal Body (Scrollable Editorial Content) -->
+            <div id="modal-body" class="px-6 sm:px-8 py-6 sm:py-8 overflow-y-auto space-y-5 text-stone-700 leading-relaxed text-sm sm:text-base">
+                <!-- Populated dynamically via JavaScript -->
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="px-6 sm:px-8 py-4 border-t border-stoneBorder bg-white flex items-center justify-between gap-4">
+                <span class="text-xs text-stone-400 font-medium">Written by Ayyappa Bhudeti · Spec Portfolio Sample</span>
+                <button
+                    id="close-modal-footer-btn"
+                    type="button"
+                    class="px-4 py-2 rounded-lg bg-charcoal text-alabaster text-xs sm:text-sm font-medium hover:bg-terracotta transition-colors"
+                >
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================================= -->
+    <!-- INTERACTIVE JAVASCRIPT                                    -->
+    <!-- ========================================================= -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // ---------------------------------------------------------
+            // 1. Mobile Menu Toggle
+            // ---------------------------------------------------------
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIconOpen = document.getElementById('menu-icon-open');
+            const menuIconClose = document.getElementById('menu-icon-close');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+            function toggleMobileMenu(forceClose = false) {
+                const isHidden = mobileMenu.classList.contains('hidden');
+                const shouldOpen = forceClose ? false : isHidden;
+
+                mobileMenu.classList.toggle('hidden', !shouldOpen);
+                menuIconOpen.classList.toggle('hidden', shouldOpen);
+                menuIconClose.classList.toggle('hidden', !shouldOpen);
+                mobileMenuBtn.setAttribute('aria-expanded', String(shouldOpen));
+            }
+
+            mobileMenuBtn.addEventListener('click', () => toggleMobileMenu());
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', () => toggleMobileMenu(true));
+            });
+
+            // ---------------------------------------------------------
+            // 2. Subtle Scroll-In Reveal Animations (IntersectionObserver)
+            // ---------------------------------------------------------
+            const revealElements = document.querySelectorAll('.reveal');
+            if ('IntersectionObserver' in window) {
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.remove('opacity-0', 'translate-y-6');
+                            entry.target.classList.add('opacity-100', 'translate-y-0');
+                            obs.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+
+                revealElements.forEach(el => observer.observe(el));
+            } else {
+                // Fallback for older browsers
+                revealElements.forEach(el => {
+                    el.classList.remove('opacity-0', 'translate-y-6');
+                    el.classList.add('opacity-100', 'translate-y-0');
+                });
+            }
+
+            // ---------------------------------------------------------
+            // 3. Writing Samples Filter Tabs
+            // ---------------------------------------------------------
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const sampleCards = document.querySelectorAll('.sample-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const selectedFilter = btn.getAttribute('data-filter');
+
+                    // Update active button styles
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-charcoal', 'text-alabaster', 'shadow-sm');
+                        b.classList.add('text-stone-600', 'hover:text-charcoal');
+                    });
+                    btn.classList.add('bg-charcoal', 'text-alabaster', 'shadow-sm');
+                    btn.classList.remove('text-stone-600', 'hover:text-charcoal');
+
+                    // Show / hide matching sample cards
+                    sampleCards.forEach(card => {
+                        const category = card.getAttribute('data-category');
+                        if (selectedFilter === 'all' || category === selectedFilter) {
+                            card.classList.remove('hidden');
+                        } else {
+                            card.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+
+            // ---------------------------------------------------------
+            // 4. Writing Samples Full Content Data & Modal Logic
+            // ---------------------------------------------------------
+            const samplesData = {
+                'sample-1': {
+                    category: 'Copywriting · Landing Page',
+                    badgeStyle: 'bg-terracottaLight text-terracotta',
+                    title: 'SaaS Productivity Tool Landing Page Hero & Value Props',
+                    content: `
+                        <div class="p-4 rounded-xl bg-stone-100/80 border border-stoneBorder text-xs text-stone-600">
+                            <strong class="text-charcoal">Brief:</strong> Above-the-fold hero copy and three core value propositions for <em>Flowline</em>, an async project workspace built for distributed product teams.
+                        </div>
+
+                        <div class="space-y-3 pt-2">
+                            <p class="text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">Hero Section</p>
+                            <h4 class="font-serif text-2xl sm:text-3xl font-medium text-charcoal leading-tight">
+                                Ship faster without another status meeting.
+                            </h4>
+                            <p class="text-stone-600">
+                                Flowline replaces scattered threads and endless check-ins with one calm, searchable workspace. Keep engineering, design, and leadership aligned—across every time zone.
+                            </p>
+                            <div class="flex flex-wrap gap-3 pt-1">
+                                <span class="px-4 py-2 rounded-lg bg-charcoal text-alabaster text-xs font-semibold">Start Free 14-Day Trial</span>
+                                <span class="px-4 py-2 rounded-lg border border-stone-300 text-charcoal text-xs font-semibold">Watch 2-Min Walkthrough</span>
+                            </div>
+                        </div>
+
+                        <hr class="border-stoneBorder">
+
+                        <div class="space-y-4">
+                            <p class="text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">Value Propositions</p>
+
+                            <div>
+                                <h5 class="font-serif text-lg font-medium text-charcoal mb-1">1. Context That Travels With the Work</h5>
+                                <p class="text-stone-600">Decisions shouldn’t vanish in chat history. Every task, spec, and approval lives in a single chronological timeline so new teammates get up to speed in minutes, not weeks.</p>
+                            </div>
+
+                            <div>
+                                <h5 class="font-serif text-lg font-medium text-charcoal mb-1">2. Built for Deep Work, Not Constant Pings</h5>
+                                <p class="text-stone-600">Smart daily digests bundle non-urgent updates into one morning summary—protecting your team’s focus hours while keeping momentum high.</p>
+                            </div>
+
+                            <div>
+                                <h5 class="font-serif text-lg font-medium text-charcoal mb-1">3. Instant Visibility for Stakeholders</h5>
+                                <p class="text-stone-600">Auto-generated milestone briefs show what shipped, what’s blocked, and what’s next—without forcing your makers to write Friday reports.</p>
+                            </div>
+                        </div>
+                    `
+                },
+                'sample-2': {
+                    category: 'Copywriting · Email Campaign',
+                    badgeStyle: 'bg-terracottaLight text-terracotta',
+                    title: 'Product Launch 3-Part Email Snippet',
+                    content: `
+                        <div class="p-4 rounded-xl bg-stone-100/80 border border-stoneBorder text-xs text-stone-600">
+                            <strong class="text-charcoal">Brief:</strong> A 3-email launch mini-sequence for <em>Kova Desk</em>, a distraction-free writing application for authors and researchers.
+                        </div>
+
+                        <div class="space-y-6 pt-1">
+                            <!-- Email 1 -->
+                            <div class="p-5 rounded-2xl bg-white border border-stoneBorder space-y-2">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-terracotta">Email 01 — Teaser (2 Days Before Launch)</p>
+                                <p class="text-sm"><strong class="text-charcoal">Subject:</strong> Your best writing shouldn’t compete with 14 open tabs</p>
+                                <p class="text-sm text-stone-600 pt-1">
+                                    You sit down to write 500 words. Twenty minutes later, you’ve tweaked a margin, answered a Slack message, and lost the thread of your opening paragraph.<br><br>
+                                    Most writing tools are built like cockpits. This Thursday, we’re introducing a calmer way to draft—designed to get out of your way the moment your fingers hit the keyboard. Watch your inbox at 9 AM.
+                                </p>
+                            </div>
+
+                            <!-- Email 2 -->
+                            <div class="p-5 rounded-2xl bg-white border border-stoneBorder space-y-2">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-terracotta">Email 02 — Launch Day</p>
+                                <p class="text-sm"><strong class="text-charcoal">Subject:</strong> Meet Kova Desk (Early access is live)</p>
+                                <p class="text-sm text-stone-600 pt-1">
+                                    Kova Desk is officially here.<br><br>
+                                    We stripped away toolbars, formatting bloat, and notification badges to build a workspace dedicated to one thing: finishing your draft. With built-in outline folding, offline sync, and one-click clean exports, your words stay front and center.<br><br>
+                                    <strong>Founding Member Offer:</strong> Lock in 30% off your first year before Sunday at midnight. → <em>[Claim Early Access]</em>
+                                </p>
+                            </div>
+
+                            <!-- Email 3 -->
+                            <div class="p-5 rounded-2xl bg-white border border-stoneBorder space-y-2">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-terracotta">Email 03 — Final Call</p>
+                                <p class="text-sm"><strong class="text-charcoal">Subject:</strong> Final hours for founding member pricing</p>
+                                <p class="text-sm text-stone-600 pt-1">
+                                    Over 1,200 writers switched to Kova Desk this week—and our favorite note so far came from an investigative journalist who drafted an entire 3,000-word feature in a single afternoon.<br><br>
+                                    Our 30% founding member discount closes tonight at 11:59 PM. If you’re ready for quieter, more productive writing sessions, now is the moment to step in. → <em>[Lock In 30% Off]</em>
+                                </p>
+                            </div>
+                        </div>
+                    `
+                },
+                'sample-3': {
+                    category: 'Content Writing · SEO Article',
+                    badgeStyle: 'bg-slate-100 text-slateDeep',
+                    title: 'How Small Businesses Can Use Data-Driven Content to Double Organic Reach',
+                    content: `
+                        <div class="p-4 rounded-xl bg-stone-100/80 border border-stoneBorder text-xs text-stone-600">
+                            <strong class="text-charcoal">Target Keyword:</strong> data-driven content strategy for small business · <strong class="text-charcoal">Intent:</strong> Informational / Actionable Guide
+                        </div>
+
+                        <div class="space-y-4 pt-1">
+                            <p>
+                                Publishing blog posts on gut instinct is the fastest way to burn a marketing budget. For small businesses competing against enterprise domains, volume alone rarely wins. What levels the playing field is <strong>precision</strong>: using real search and audience data to answer the exact questions your buyers are already typing into Google.
+                            </p>
+
+                            <h4 class="font-serif text-xl font-medium text-charcoal pt-2">
+                                1. Start With Search Intent, Not Just Search Volume
+                            </h4>
+                            <p>
+                                High-volume keywords look impressive on a spreadsheet, but they often attract browsers rather than buyers. Instead, audit the top-ranking pages for long-tail queries tied to your core offer. Ask: <em>Is the reader looking for a definition, a comparison, or a step-by-step fix?</em> Matching your format to that intent immediately improves dwell time and rankings.
+                            </p>
+
+                            <h4 class="font-serif text-xl font-medium text-charcoal pt-2">
+                                2. Mine Your Own Customer Conversations
+                            </h4>
+                            <p>
+                                Your support inbox, sales calls, and FAQs are a goldmine of zero-competition content topics. When three customers ask the same technical question in a single month, dozens more are searching for it online. Turning those answers into structured guides builds trust before a prospect ever books a call.
+                            </p>
+
+                            <h4 class="font-serif text-xl font-medium text-charcoal pt-2">
+                                3. Refresh Before You Rewrite
+                            </h4>
+                            <p>
+                                Doubling organic traffic rarely requires doubling your publishing schedule. Review posts sitting on positions 8 through 20 in Google Search Console. Updating outdated statistics, sharpening subheadings, and adding concise summary blocks often pushes existing pages onto page one within weeks.
+                            </p>
+
+                            <div class="p-5 rounded-2xl bg-white border border-stoneBorder mt-4">
+                                <p class="text-xs font-semibold uppercase tracking-[0.14em] text-terracotta mb-2">Key Takeaways</p>
+                                <ul class="list-disc pl-5 space-y-1.5 text-sm text-stone-700">
+                                    <li>Prioritize buyer-aligned long-tail queries over broad vanity keywords.</li>
+                                    <li>Convert recurring sales and support questions into evergreen articles.</li>
+                                    <li>Audit and refresh "striking distance" articles (positions 8–20) every quarter for compounding organic gains.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    `
+                },
+                'sample-4': {
+                    category: 'Content Writing · Blog Post',
+                    badgeStyle: 'bg-slate-100 text-slateDeep',
+                    title: 'Why Consistent Brand Voice Builds Long-Term Customer Trust',
+                    content: `
+                        <div class="p-4 rounded-xl bg-stone-100/80 border border-stoneBorder text-xs text-stone-600">
+                            <strong class="text-charcoal">Brief:</strong> Thought-leadership blog post for a B2B marketing agency helping founders refine their brand messaging across web, email, and social channels.
+                        </div>
+
+                        <div class="space-y-4 pt-1">
+                            <p>
+                                Readers form an impression of your business within seconds—and long before they compare pricing tables, they react to how you sound. When your landing page feels warm and conversational, your emails read like stiff corporate memos, and your social posts chase every trend, prospects feel a subtle disconnect. That friction quietly erodes trust.
+                            </p>
+
+                            <h4 class="font-serif text-xl font-medium text-charcoal pt-2">
+                                Familiarity Creates Confidence
+                            </h4>
+                            <p>
+                                A consistent brand voice acts like a recognizable handshake. Whether a customer discovers you through an SEO guide, a product announcement, or a customer support reply, the underlying tone should feel unmistakably yours. Predictability in communication signals reliability in delivery.
+                            </p>
+
+                            <h4 class="font-serif text-xl font-medium text-charcoal pt-2">
+                                Three Pillars of a Repeatable Voice
+                            </h4>
+                            <ul class="space-y-2.5 text-sm sm:text-base">
+                                <li class="flex items-start gap-2.5">
+                                    <span class="text-terracotta font-bold mt-0.5">•</span>
+                                    <span><strong class="text-charcoal">Define What You Are—and Aren’t:</strong> Pair every voice trait with a clear boundary (for example, <em>confident, never arrogant</em>; <em>clear, never simplistic</em>).</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="text-terracotta font-bold mt-0.5">•</span>
+                                    <span><strong class="text-charcoal">Adapt Tone Without Losing Voice:</strong> Your voice stays steady, while your tone flexes to the moment—celebratory in a launch email, calm and direct in a troubleshooting guide.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <span class="text-terracotta font-bold mt-0.5">•</span>
+                                    <span><strong class="text-charcoal">Edit Against One Standard:</strong> Before hitting publish, read the draft aloud. If a sentence sounds like it belongs to a different company, rewrite it until it fits naturally.</span>
+                                </li>
+                            </ul>
+
+                            <p>
+                                Great design earns a first look, but a clear, steady voice is what keeps people reading—and buying—months down the line.
+                            </p>
+                        </div>
+                    `
+                }
+            };
+
+            const modal = document.getElementById('sample-modal');
+            const modalCategory = document.getElementById('modal-category');
+            const modalTitle = document.getElementById('modal-title');
+            const modalBody = document.getElementById('modal-body');
+            const closeModalBtn = document.getElementById('close-modal-btn');
+            const closeModalFooterBtn = document.getElementById('close-modal-footer-btn');
+            const openSampleBtns = document.querySelectorAll('.open-sample-btn');
+
+            function openModal(sampleId) {
+                const sample = samplesData[sampleId];
+                if (!sample) return;
+
+                modalCategory.textContent = sample.category;
+                modalCategory.className = `inline-block px-3 py-1 rounded-full text-xs font-semibold mb-2 ${sample.badgeStyle}`;
+                modalTitle.textContent = sample.title;
+                modalBody.innerHTML = sample.content;
+                modalBody.scrollTop = 0;
+
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+                document.body.classList.add('overflow-hidden');
+            }
+
+            function closeModal() {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.classList.remove('overflow-hidden');
+            }
+
+            openSampleBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.getAttribute('data-sample-id');
+                    openModal(id);
+                });
+            });
+
+            closeModalBtn.addEventListener('click', closeModal);
+            closeModalFooterBtn.addEventListener('click', closeModal);
+
+            // Close modal on backdrop click
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) closeModal();
+            });
+
+            // Close modal on Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                    closeModal();
+                }
+            });
+
+            // ---------------------------------------------------------
+            // 5. Copy Email to Clipboard (iFrame-Safe execCommand)
+            // ---------------------------------------------------------
+            const copyEmailBtn = document.getElementById('copy-email-btn');
+            const copyIcon = document.getElementById('copy-icon');
+            const checkIcon = document.getElementById('check-icon');
+            const copyBtnText = document.getElementById('copy-btn-text');
+            let copyResetTimer = null;
+
+            copyEmailBtn.addEventListener('click', () => {
+                const emailAddress = 'ayyappa8812@gmail.com';
+                try {
+                    const tempInput = document.createElement('textarea');
+                    tempInput.value = emailAddress;
+                    tempInput.setAttribute('readonly', '');
+                    tempInput.style.position = 'fixed';
+                    tempInput.style.opacity = '0';
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    tempInput.setSelectionRange(0, 99999);
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+
+                    // Visual confirmation state
+                    copyIcon.classList.add('hidden');
+                    checkIcon.classList.remove('hidden');
+                    copyBtnText.textContent = 'Copied!';
+                    copyEmailBtn.classList.add('bg-emerald-50', 'text-emerald-800');
+                    copyEmailBtn.classList.remove('bg-stone-100', 'text-charcoal');
+
+                    clearTimeout(copyResetTimer);
+                    copyResetTimer = setTimeout(() => {
+                        copyIcon.classList.remove('hidden');
+                        checkIcon.classList.add('hidden');
+                        copyBtnText.textContent = 'Copy Email';
+                        copyEmailBtn.classList.remove('bg-emerald-50', 'text-emerald-800');
+                        copyEmailBtn.classList.add('bg-stone-100', 'text-charcoal');
+                    }, 2200);
+                } catch (err) {
+                    copyBtnText.textContent = 'ayyappa8812@gmail.com';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
